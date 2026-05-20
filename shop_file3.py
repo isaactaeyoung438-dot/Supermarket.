@@ -865,7 +865,6 @@ if __name__ == '__main__':
     print("\n🔐 LOGIN CREDENTIALS:")
     print("   • Admin: username 'admin', password 'admin123'")
     print("\n🌐 SERVER RUNNING AT:")
-    print(f"   🔗 http://localhost:{po
-    rt}")
+    print(f"   🔗 http://localhost:{port}")
     print("=" * 70 + "\n")
     app.run(debug=False, host='0.0.0.0', port=port)
