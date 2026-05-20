@@ -1,0 +1,8 @@
+Timestamp,Transaction ID,Product,Quantity,Price,Total,Customer
+2026-05-18 16:30:25,N/A,apple,10,30.00,300,Walk-in
+2026-05-18 16:30:25,N/A,banana,20,20.00,400,Walk-in
+2026-05-18 16:30:25,N/A,milk,20,50.00,1000,Walk-in
+2026-05-18 16:30:25,N/A,bread,2,40.00,80,Walk-in
+2026-05-18 16:30:25,N/A,sugar,10,100.00,1000,Walk-in
+2026-05-19 15:27:55,INV-20260519152755,banana,3,20.00,60,Isaac Kipchumba
+2026-05-19 15:27:55,INV-20260519152755,bread,4,40.00,160,Isaac Kipchumba

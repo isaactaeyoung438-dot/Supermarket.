@@ -1,0 +1,274 @@
+{
+  "products": {
+    "banana": {
+      "price": 20,
+      "quantity": 56,
+      "quality": "medium",
+      "cost_price": 10,
+      "min_stock": 5,
+      "barcode": "BAR0000000000",
+      "category": "general"
+    },
+    "milk": {
+      "price": 50,
+      "quantity": 40,
+      "quality": "high",
+      "category": "cooking",
+      "cost_price": 40,
+      "min_stock": 5,
+      "barcode": "BAR0000000000",
+      "popularity": 80
+    },
+    "bread": {
+      "price": 40,
+      "quantity": 15,
+      "quality": "low",
+      "category": "cooking",
+      "cost_price": 30,
+      "min_stock": 5,
+      "barcode": "BAR0000000000",
+      "popularity": 80
+    },
+    "sugar": {
+      "price": 100,
+      "quantity": 47,
+      "quality": "medium",
+      "category": "cooking",
+      "cost_price": 90,
+      "min_stock": 5,
+      "barcode": "BAR0000000000",
+      "popularity": 80
+    },
+    "Rice": {
+      "price": 240,
+      "quantity": 17,
+      "quality": "low",
+      "category": "cooking",
+      "cost_price": 2000,
+      "min_stock": 5,
+      "barcode": "BAR1779197089",
+      "popularity": 80
+    }
+  },
+  "daily_sales": [
+    2780,
+    220,
+    2140
+  ],
+  "sales_transactions": [
+    {
+      "timestamp": "2026-05-18 16:30:25",
+      "items": [
+        {
+          "name": "apple",
+          "quantity": 10,
+          "cost": 300,
+          "quality": "high"
+        },
+        {
+          "name": "banana",
+          "quantity": 20,
+          "cost": 400,
+          "quality": "medium"
+        },
+        {
+          "name": "milk",
+          "quantity": 20,
+          "cost": 1000,
+          "quality": "high"
+        },
+        {
+          "name": "bread",
+          "quantity": 2,
+          "cost": 80,
+          "quality": "low"
+        },
+        {
+          "name": "sugar",
+          "quantity": 10,
+          "cost": 1000,
+          "quality": "medium"
+        }
+      ],
+      "total": 2780
+    },
+    {
+      "id": "INV-20260519152755",
+      "timestamp": "2026-05-19 15:27:55",
+      "items": [
+        {
+          "name": "banana",
+          "quantity": 3,
+          "cost": 60
+        },
+        {
+          "name": "bread",
+          "quantity": 4,
+          "cost": 160
+        }
+      ],
+      "total": 220,
+      "customer_phone": "0769357551",
+      "customer_name": "Isaac Kipchumba"
+    },
+    {
+      "id": "INV-20260519205739",
+      "timestamp": "2026-05-19 20:57:39",
+      "items": [
+        {
+          "name": "banana",
+          "quantity": 21,
+          "cost": 420
+        },
+        {
+          "name": "milk",
+          "quantity": 10,
+          "cost": 500
+        },
+        {
+          "name": "bread",
+          "quantity": 5,
+          "cost": 200
+        },
+        {
+          "name": "sugar",
+          "quantity": 3,
+          "cost": 300
+        },
+        {
+          "name": "Rice",
+          "quantity": 3,
+          "cost": 720
+        }
+      ],
+      "total": 2140,
+      "customer_phone": "0769357551",
+      "customer_name": "Tracy maina",
+      "customer_email": "isaactaeyoung438@gmail.com",
+      "ip_address": "127.0.0.1"
+    }
+  ],
+  "activity_log": [
+    {
+      "timestamp": "2026-05-19 14:48:55",
+      "user": "admin",
+      "action": "User admin logged in"
+    },
+    {
+      "timestamp": "2026-05-19 14:56:08",
+      "user": "admin",
+      "action": "User admin logged in"
+    },
+    {
+      "timestamp": "2026-05-19 15:10:21",
+      "user": "admin",
+      "action": "User admin logged out"
+    },
+    {
+      "timestamp": "2026-05-19 15:12:58",
+      "user": "admin",
+      "action": "User admin logged in"
+    },
+    {
+      "timestamp": "2026-05-19 15:20:07",
+      "user": "admin",
+      "action": "User admin logged in"
+    },
+    {
+      "timestamp": "2026-05-19 15:27:55",
+      "user": "admin",
+      "action": "Sale recorded: 2 items, total 220 KES"
+    },
+    {
+      "timestamp": "2026-05-19 15:43:23",
+      "user": "admin",
+      "action": "User admin logged in"
+    },
+    {
+      "timestamp": "2026-05-19 15:57:01",
+      "user": "admin",
+      "action": "User admin logged in"
+    },
+    {
+      "timestamp": "2026-05-19 15:58:46",
+      "user": "admin",
+      "action": "User admin logged out"
+    },
+    {
+      "timestamp": "2026-05-19 15:58:58",
+      "user": "admin",
+      "action": "User admin logged in"
+    },
+    {
+      "timestamp": "2026-05-19 16:14:21",
+      "user": "admin",
+      "action": "User admin logged in"
+    },
+    {
+      "timestamp": "2026-05-19 16:23:13",
+      "user": "admin",
+      "action": "User admin changed password"
+    },
+    {
+      "timestamp": "2026-05-19 16:23:25",
+      "user": "admin",
+      "action": "User admin logged in"
+    },
+    {
+      "timestamp": "2026-05-19 16:29:11",
+      "user": "admin",
+      "action": "User admin logged in"
+    },
+    {
+      "timestamp": "2026-05-19 16:43:16",
+      "user": "admin",
+      "action": "User admin logged in from IP: 127.0.0.1",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2026-05-19 20:57:39",
+      "user": "admin",
+      "action": "Sale recorded: 5 items, total 2140 KES, Customer: Tracy maina",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2026-05-20 11:33:25",
+      "user": "admin",
+      "action": "User admin logged in from IP: 127.0.0.1",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2026-05-20 11:34:42",
+      "user": "admin",
+      "action": "User admin logged out",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2026-05-20 11:39:47",
+      "user": "admin",
+      "action": "User admin logged in from IP: 127.0.0.1",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2026-05-20 14:21:05",
+      "user": "admin",
+      "action": "User admin logged out",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2026-05-20 14:23:36",
+      "user": "mathew",
+      "action": "User mathew logged in from IP: 127.0.0.1",
+      "ip": "127.0.0.1"
+    }
+  ],
+  "customers": {
+    "0769357551": {
+      "name": "Isaac Kipchumba",
+      "total_spent": 2360,
+      "visits": 2,
+      "last_purchase": "2026-05-19 20:57:39",
+      "email": "isaactaeyoung438@gmail.com"
+    }
+  }
+}

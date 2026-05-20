@@ -1,0 +1,20 @@
+{
+  "admin": {
+    "password": "92ccecc0ea0248ee3efcd36c2d0f519b1bee46a5a70e8cb90b332373c86652f0",
+    "role": "admin",
+    "name": "Store Manager",
+    "email": "admin@shop.com",
+    "created_at": "2026-05-19 15:56:32",
+    "last_login_ip": "127.0.0.1",
+    "last_login_time": "2026-05-20 11:39:47"
+  },
+  "mathew": {
+    "password": "22816abec1c6017258f19defa1c1a1610e8cfd2f60f49f118523c8054ecac08a",
+    "role": "staff",
+    "name": "Isaac Taeyoung",
+    "email": "isaactaeyoung438@gmail.com",
+    "created_at": "2026-05-20 14:23:20",
+    "last_login_ip": "127.0.0.1",
+    "last_login_time": "2026-05-20 14:23:36"
+  }
+}
